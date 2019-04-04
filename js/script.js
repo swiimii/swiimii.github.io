@@ -1,9 +1,9 @@
 $(function(){
 	"use strict";
-	
+
 	var sect = $( window.location.hash ),
 		portfolio = $('.portfolio-items');
-	
+
 	if(sect.length == 1){
 		$('.section.active').removeClass('active');
 		sect.addClass('active');
@@ -11,7 +11,7 @@ $(function(){
 			$('body').addClass('border-dark');
 		}
 	}
-	
+
 	/*=========================================================================
 		Magnific Popup (Project Popup initialization)
 	=========================================================================*/
@@ -26,10 +26,10 @@ $(function(){
 		removalDelay: 300,
 		mainClass: 'my-mfp-zoom-in'
 	});
-	
+
 	$(window).on('load', function(){
 		$('body').addClass('loaded');
-		
+
 		/*=========================================================================
 			Portfolio Grid
 		=========================================================================*/
@@ -41,9 +41,9 @@ $(function(){
 			$(this).addClass('active');
 			portfolio.shuffle('shuffle', groupName );
 		});
-		
+
 	});
-	
+
 	/*=========================================================================
 		Navigation Functions
 	=========================================================================*/
@@ -60,7 +60,7 @@ $(function(){
 					$('body').addClass('down');
 				}
 				setTimeout(function(){
-					$('body').removeClass('section-switching up down');			
+					$('body').removeClass('section-switching up down');
 				}, 2500);
 				setTimeout(function(){
 					current_sect.removeClass('active');
@@ -74,8 +74,8 @@ $(function(){
 			}
 		}
 	});
-	
-	
+
+
 	/*=========================================================================
 		Testimonials Slider
 	=========================================================================*/
@@ -90,11 +90,11 @@ $(function(){
 			}
 		}
 	});
-	
-	
-	
-	
-	
+
+
+
+
+
 	/*=========================================================================
 		Contact Form
 	=========================================================================*/
@@ -103,52 +103,52 @@ $(function(){
 		return (/^[,:{}\[\]0-9.\-+Eaeflnr-u \n\r\t]*$/).test(str);
 	}
 	$('#contact-form').validator().on('submit', function (e) {
-		
+
 		if (!e.isDefaultPrevented()) {
 			// If there is no any error in validation then send the message
-			
+
 			e.preventDefault();
 			var $this = $(this),
-				
+
 				//You can edit alerts here
 				alerts = {
-				
-					success: 
+
+					success:
 					"<div class='form-group' >\
 						<div class='alert alert-success' role='alert'> \
 							<strong>Message Sent!</strong> We'll be in touch as soon as possible\
 						</div>\
 					</div>",
-					
-					
-					error: 
+
+
+					error:
 					"<div class='form-group' >\
 						<div class='alert alert-danger' role='alert'> \
 							<strong>Oops!</strong> Sorry, an error occurred. Try again.\
 						</div>\
 					</div>"
-					
+
 				};
-			
+
 			$.ajax({
-			
+
 				url: 'mail.php',
 				type: 'post',
 				data: $this.serialize(),
 				success: function(data){
-					
+
 					if( isJSON(data) ){
-						
+
 						data = $.parseJSON(data);
-						
+
 						if(data['error'] == false){
-							
+
 							$('#contact-form-result').html(alerts.success);
-							
+
 							$('#contact-form').trigger('reset');
-							
+
 						}else{
-							
+
 							$('#contact-form-result').html(
 							"<div class='form-group' >\
 								<div class='alert alert-danger alert-dismissible' role='alert'> \
@@ -159,14 +159,14 @@ $(function(){
 								</div>\
 							</div>"
 							);
-							
+
 						}
-						
-						
+
+
 					}else{
 						$('#contact-form-result').html(alerts.error);
 					}
-					
+
 				},
 				error: function(){
 					$('#contact-form-result').html(alerts.error);
@@ -174,7 +174,7 @@ $(function(){
 			});
 		}
 	});
-	
-	
-	
+
+
+
 });
