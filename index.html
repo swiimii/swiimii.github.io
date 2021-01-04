@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 	<head>
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -180,7 +180,15 @@
 
 										<li>
 											<strong>Age:</strong>
-											<span><strong>20 Years</strong></span>
+											<!-- Calculate age automatically -->
+											<span><strong>
+												<script>
+													var todaysDate = new Date()
+													var birthDate = new Date(1999, 04, 02)
+													var age = Math.floor((todaysDate-birthDate)/(1000*60*60*24*365))
+													document.write(age)
+												</script>
+											</strong></span>
 										</li>
 
 										<li>
