@@ -828,7 +828,7 @@ body.section-switching.up .animation-block{
 .timeline > li > .timeline-content > em{
 	margin-bottom:10px;
 	display:block;
-	color:rgba(0,0,0,.6);
+	color:rgba(0,0,0,.8);
 }
 .timeline > li > .timeline-content > em > span{
 	margin-right:10px;
@@ -836,7 +836,7 @@ body.section-switching.up .animation-block{
 .timeline > li > .timeline-content > p{
 	margin:0;
 	line-height:1.6em;
-	color:rgba(0,0,0,.4);
+	color:rgba(0,0,0,.7);
 }
 .testimonials-block .section-header{
 	margin-bottom:80px;
