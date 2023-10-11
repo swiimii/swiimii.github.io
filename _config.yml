@@ -32,7 +32,7 @@ itch-dot-io_username: swiimii
 minima:
   skin: dark
   social_links:
-    - { platform: linkedin, user_url: "https://www.linkedin.com/in/samuel-scherer-3954aa160/" }
+    - { platform: linkedin, user_url: "https://www.linkedin.com/in/samuel-scherer2/" }
     - { platform: github, user_url: "https://github.com/swiimii" }
     - { platform: itch-dot-io, user_url: "https://swiimii.itch.io" }
     - { platform: devpost, user_url: "https://devpost.com/swiimii"}
