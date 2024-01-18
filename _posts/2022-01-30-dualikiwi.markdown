@@ -1,8 +1,9 @@
 ---
-layout: post
+layout: project
 title:  "Dualikiwi"
 date:   2022-01-30 06:00:00 -0400
-categories: hackathon featured unity c-sharp playable
+tags: hackathon featured unity c-sharp playable
+img: img/portfolio/DualiKiwi.png
 ---
 
 Dualikiwi is a game created for the 2022 Global Game Jam, which I created alongside two colleagues. I wrote all of the code for the game, and I consider it one of my best projects. I have been further polishing Dualikiwi, alongside the game's other creators, and plan to release the game in the future.

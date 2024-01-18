@@ -1,0 +1,20 @@
+---
+layout: post
+---
+
+{%- if page.tags contains "playable" -%}
+    🎮 Playable In Browser
+    <br>
+{%- endif -%}
+{%- if page.tags contains "video" -%}
+    ▶ Video Available
+    <br>
+{%- endif -%}
+{%- if page.tags contains "multiplayer" -%}
+    👨‍👨‍👧‍👧 Multiplayer Project
+    <br>
+{%- endif -%}
+
+<br>
+
+{{ content }}

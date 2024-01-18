@@ -24,12 +24,21 @@ layout: base
     <ul class="post-list">
       {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
       {%- for post in posts -%}
-      {% if post.categories contains page.filter or post.tags contains page.filter %}
+      {% if page.filter == "" or post.tags contains page.filter or post.tags contains page.filter %}
         <li>
             <span class="post-meta">{{ post.date | date: date_format }}</span>
             <h3>
             <a class="post-link" href="{{ post.url | relative_url }}">
                 {{ post.title | escape }}
+                {%- if post.tags contains "playable" -%}
+                  &nbsp;🎮
+                {%- endif -%}
+                {%- if post.tags contains "video" -%}
+                  &nbsp;▶
+                {%- endif -%}
+                {%- if post.tags contains "multiplayer" -%}
+                  &nbsp;👨‍👨‍👧‍👧
+                {%- endif -%}
             </a>
             </h3>
             {%- if site.show_excerpts -%}

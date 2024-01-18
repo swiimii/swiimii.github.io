@@ -1,8 +1,9 @@
 ---
-layout: post
+layout: project
 title:  "Save The Kiwi 2"
 date:   2020-12-20 06:00:00 -0400
-categories: school-project unity c-sharp playable
+tags: school-project unity c-sharp playable
+img: img/portfolio/SaveTheKiwi.jpg
 ---
 
 Save the Kiwi 2 is a short Unity game I made for a school assignment in 2020. Whenever I play it, it makes me giggle.

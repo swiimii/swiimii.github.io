@@ -1,8 +1,9 @@
 ---
-layout: post
+layout: project
 title:  "Isle of Roots"
 date:   2023-02-05 06:00:00 -0400
-categories: hackathon featured multiplayer unity c-sharp
+tags: hackathon featured multiplayer unity c-sharp video
+img: img/portfolio/IsleOfRoots.png
 ---
 
 Isle of Roots is an unconventional RTS where players place plants to generate resources, gain victory points, and block their opponents from placing plants. I made this game in 48 hours for the 2023 Global Game Jam, co-leading ~8 other contributors.

@@ -1,6 +1,6 @@
 ---
 layout: projectList
-title: Playables
+title: All Projects
 permalink: /PlayableProjects/
-filter: playable
+filter: ""
 ---

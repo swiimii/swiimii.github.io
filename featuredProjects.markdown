@@ -1,6 +1,6 @@
 ---
 layout: projectList
-title: Featured
+title: Featured Projects
 permalink: /FeaturedProjects/
 filter: featured
 ---

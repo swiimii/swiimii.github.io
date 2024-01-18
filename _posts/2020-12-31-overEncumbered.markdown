@@ -1,8 +1,9 @@
 ---
-layout: post
+layout: project
 title:  "Over-Encumbered"
 date:   2020-12-20 06:00:00 -0400
-categories: hackathon unity c-sharp playable
+tags: hackathon unity c-sharp playable
+img: img/portfolio/OverEncumbered.jpg
 ---
 
 Over-Encumbered is a short game about a drug-dealing cat named Business Cat. I made the project alongside one other contributor for a weekly game jam.
