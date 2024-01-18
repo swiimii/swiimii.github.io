@@ -3,7 +3,7 @@ layout: project
 title:  "Re: Pear"
 date:   2020-01-28 06:00:00 -0400
 tags: hackathon unity c-sharp playable
-img: img/portfolio/RePear.jpg
+img: /img/portfolio/RePear.jpg
 ---
 
 Re:Pear is a Unity2D game made during the Global Game Jam 2020, at the University of Cincinnati. I made code for various parts of the project. I was joined by 5 collaborators, whom I assembled before the event. You play as Paddington Pear, part of a pair of Pears whose marriage is in peril, as he tries to repair his broken marriage. This game was made in 48 hours, under the jam's theme of "Repair".

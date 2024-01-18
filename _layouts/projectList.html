@@ -21,11 +21,11 @@ layout: base
     {%- if page.list_title -%}
       <h2 class="post-list-heading">{{ page.list_title }}</h2>
     {%- endif -%}
-    <ul class="post-list">
+    <ul class="post-list"  style="column-count: 1;">
       {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
       {%- for post in posts -%}
       {% if page.filter == "" or post.tags contains page.filter or post.tags contains page.filter %}
-        <li>
+        <li style="column-count: 2">
             <span class="post-meta">{{ post.date | date: date_format }}</span>
             <h3>
             <a class="post-link" href="{{ post.url | relative_url }}">
@@ -40,10 +40,13 @@ layout: base
                   &nbsp;👨‍👨‍👧‍👧
                 {%- endif -%}
             </a>
-            </h3>
             {%- if site.show_excerpts -%}
             {{ post.excerpt }}
             {%- endif -%}
+            {%- if post.img -%}
+              <img src="{{ post.img }}" width=256 height=256 >
+            {%- endif -%}
+            </h3>
         </li>
     {% endif %}
       {%- endfor -%}
