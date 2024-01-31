@@ -1,2 +1,2 @@
 # jekyll-practice
-Repository for learning to use Jekyll
+My portfolio for sharing projects, socials, and my resume.
