@@ -38,10 +38,10 @@ minima:
     - { platform: devpost, user_url: "https://devpost.com/swiimii"}
 
 header_pages:
-  - aboutme.markdown
-  - featuredProjects.markdown
-  - allProjects.markdown
-  - resume.markdown
+  - /aboutme.markdown
+  - /featuredProjects.markdown
+  - /allProjects.markdown
+  - /resume.markdown
 
 # Build settings
 # theme: minima
