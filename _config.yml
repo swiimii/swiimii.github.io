@@ -37,6 +37,12 @@ minima:
     - { platform: itch-dot-io, user_url: "https://swiimii.itch.io" }
     - { platform: devpost, user_url: "https://devpost.com/swiimii"}
 
+header_pages:
+  - aboutme.markdown
+  - featuredProjects.markdown
+  - allProjects.markdown
+  - resume.markdown
+
 # Build settings
 # theme: minima
 plugins:
