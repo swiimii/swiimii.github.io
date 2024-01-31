@@ -1,0 +1,36 @@
+<footer class="site-footer h-card">
+    <data class="u-url" href="{{ "/" | relative_url }}"></data>
+    <div class="wrapper">
+  
+      <div class="footer-col-wrapper">
+        <div class="footer-col">
+          <ul class="contact-list">
+            <li class="p-name">
+            {%- if site.author -%}
+              {{ site.author | escape }}
+            {%- else -%}
+              {{ site.title | escape }}
+            {%- endif -%}
+            </li>
+            <li>
+              {%- if site.pronouns -%}
+                {{ site.pronouns | escape }}
+              {%- else -%}
+                he/him
+              {%- endif -%}
+            </li>
+            {%- if site.email -%}
+            <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+            {%- endif -%}
+          </ul>
+          <img src="/assets/images/kiwi.jpg" width="96" height="96"></img>
+        </div>
+  
+        <div class="footer-col">
+          {%- include social.html -%}
+        </div>
+      </div>
+  
+    </div>
+  
+  </footer>

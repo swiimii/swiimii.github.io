@@ -1,0 +1,9 @@
+---
+layout: project
+title:  "Bagel and Scream Cheese"
+date:   2019-10-15 06:00:00 -0400
+tags: hackathon unity c-sharp
+img: /img/portfolio/Bagel.jpg
+---
+
+A Bagel and Scream Cheese is a small Unity game that I made in 12 hours at the 2019 MakeUC Hackathon, alongside one artist. It was created to be played on both WebGL and Android.

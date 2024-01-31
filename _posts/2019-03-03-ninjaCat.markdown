@@ -1,0 +1,11 @@
+---
+layout: project
+title:  "Ninja Cat Adventure"
+date:   2019-03-03 06:00:00 -0400
+tags: hackathon unity c-sharp playable
+img: /img/portfolio/NinjaCatAdventure.jpg
+---
+
+Ninja Cat Adventure is a Unity2D game made in 24 hours at the RevolutionUC Hackathon 2019. I made code for various parts of the project. During this project I was joined by an artist, and two programmers who had never used Unity. Ninja Cat Adventure won RevUC 2019's award for Best Design. The player's objective is to defeat all of Ninja Cat's enemies and become the ultimate Ninja Warrior (by falling off the edge of the game map). WARNING: Due to time constraints, there are many parts of this game which don't function perfectly.
+
+<iframe frameborder="0" src="https://itch.io/embed/708739?dark=true" width="552" height="167"><a href="https://swiimii.itch.io/ninja-cat-adventure">Ninja Cat Adventure by swiimii</a></iframe>
