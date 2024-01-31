@@ -22,6 +22,7 @@ layout: base
       <h2 class="post-list-heading">{{ page.list_title }}</h2>
     {%- endif -%}
     <ul class="post-list"  style="column-count: 1;">
+
       {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
       {%- for post in posts -%}
       {% if page.filter == "" or post.tags contains page.filter or post.tags contains page.filter %}
@@ -31,10 +32,10 @@ layout: base
             <a class="post-link" href="{{ post.url | relative_url }}">
                 {{ post.title | escape }}
                 {%- if post.tags contains "playable" -%}
-                  &nbsp;🎮
+                  &nbsp;▶
                 {%- endif -%}
                 {%- if post.tags contains "video" -%}
-                  &nbsp;▶
+                  &nbsp;🎥
                 {%- endif -%}
                 {%- if post.tags contains "multiplayer" -%}
                   &nbsp;👨‍👨‍👧‍👧

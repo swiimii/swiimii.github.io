@@ -6,13 +6,14 @@ layout: page
 ---
 
 # Sam Scherer
+*Software Engineer*
 
 <img src="assets/images/profilepic.jpg" width=360 height=360 >
 
-Three principles to follow while making software:
+**I try to follow three rules while making software:**
 
-   - #1: Don't die.
-   - #2: Ship.
-   - #3: Make Money.
+   - **#1: Don't die.**
+   - **#2: Ship.**
+   - **#3: Make Money.**
 
 -- *Re-tooled from Marty O'Donnell's three principles of Game Development*
