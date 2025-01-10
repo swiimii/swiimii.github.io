@@ -7,3 +7,15 @@ img: /img/portfolio/Bagel.jpg
 ---
 
 A Bagel and Scream Cheese is a small Unity game that I made in 12 hours at the 2019 MakeUC Hackathon, alongside one artist. It was created to be played on both WebGL and Android.
+
+Features:
+- Bagel Embodiment Gameplay
+- Horde Survival Gameplay
+
+Major Contributions:
+- 100% Codebase
+
+Lessons Learned:
+- Building for Android with Unity
+- Minimal-Scope Game Design
+- Static Variables (major lesson learned)

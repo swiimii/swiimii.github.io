@@ -6,3 +6,4 @@ filter: ""
 ---
 
 Total Hackathons / Game Jams Completed: {{ site.tags.hackathon | size }}
+

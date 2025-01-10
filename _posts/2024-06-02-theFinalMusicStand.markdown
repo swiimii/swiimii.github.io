@@ -2,13 +2,28 @@
 layout: project
 title:  "The Final (Music) Stand"
 date:   2024-06-02 06:00:00 -0400
-tags: hackathon unity c-sharp multiplayer playable video
+tags: hackathon featured unity c-sharp multiplayer playable video production
 img: /img/portfolio/TheFinalMusicStand.png
 ---
 
 The Final (Music) Stand is a platform fighter in which players brawl for the opportunity to perform a solo! The first player to earn enough points during their performances wins!
 
-I made this game for an 11-day game jam, working primarily on weekends, alongside 4 other contributors.
+I co-produced and wrote code for this game during an 11-day game jam, working primarily on weekends, alongside 4 other contributors.
+
+Features:
+- Platform Fighter Gameplay
+- Rythm Gameplay
+- Online Multiplayer
+
+Major Contributions:
+- Rythm Minigame
+- Production
+- Partial Character Controller Contribution
+
+Lessons Learned:
+- Long-term Jam Logistics & Planning
+- Netcode for Gameobjects
+- Timing-Sensitive Gameplay (Synching Rythm Game Properly)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/CsMYs6ebJA4?si=PpMNTCtSPb5knQtb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 

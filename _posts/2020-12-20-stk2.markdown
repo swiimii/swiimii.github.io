@@ -8,4 +8,17 @@ img: /img/portfolio/SaveTheKiwi.jpg
 
 Save the Kiwi 2 is a short Unity game I made for a school assignment in 2020. Whenever I play it, it makes me giggle.
 
+Features:
+- Short Puzzle Gameplay
+- Killer Soundtrack
+
+Major Contributions:
+- 100% Project + Production
+
+Lessons Learned:
+- Unity 3D Lighting Basics
+- Blender *Extreme* Basics
+- Audio Mixing Basics
+- Unity Landscape Basics
+
 <iframe frameborder="0" src="https://itch.io/embed/719035?dark=true" width="552" height="167"><a href="https://swiimii.itch.io/save-the-kiwi-update">Save The Kiwi Update by swiimii</a></iframe>

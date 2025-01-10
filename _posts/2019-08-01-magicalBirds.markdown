@@ -10,4 +10,22 @@ Magical Birds is a game made for my Software Engineering course during my Summer
 
 I'd personally recommend playing levels 1 and 4 since those were the levels I designed!
 
+Features:
+- Powerups earned during gameplay
+- Simple questing system
+- Multiple Different Attacks
+- Boss Battle
+
+Major Contributions:
+- Questing Mechanics
+- All boss battle mechanics
+- 50% of Level Design
+- Character Controller
+- Production
+- Bird Art & Animations + Other Art
+
+Lessons Learned:
+- Large-Scope Project Experience
+- Simple Save + Load with PlayerPrefs
+
 <iframe frameborder="0" src="https://itch.io/embed/708719?dark=true" width="552" height="167"><a href="https://swiimii.itch.io/magical-birds">Magical Birds by swiimii</a></iframe>
