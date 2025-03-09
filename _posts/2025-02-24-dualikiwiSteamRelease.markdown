@@ -12,22 +12,35 @@ Originally created for the 2022 Global Game Jam, Dualikiwi is a Sokoban game whe
 Features:
 - 30 story levels 
 - Level editor
+- World Creator
+  - Player-made level collections
+  - Workshop Support
 - Steam Achievements
 
 Major Contributions:
 - 100% Code / Unity Contribution
-  - Level Editor  
+  - Steamworks & Workshop API
+  - Level Editor
+  - Controller Support
   - Character Controller
-  - UI Functionality
-- LLC Management
+  - UI
 - Steamworks Management
+  - Steam Workshop
+  - Store Page
+    - Art Assets
+    - Trailer
+    - Tagging & Descriptions
 - Production
+  - People Management
+  - Defining Deadlines
+- LLC Management
 
 Lessons Learned:
 - Long-term Jam Logistics & Planning
-- Steam Achievements API
+- Steamworks Achievements APIs
+- Steamworks Workshop APIs
 - Level Generation
-- JSON Encoding (Saved Level Editor Levels)
+- JSON Encoding & Decoding (Saved Level Editor Levels)
 
 <iframe src="https://store.steampowered.com/widget/2588940/" frameborder="0" width="646" height="190"></iframe>
 <br/>
