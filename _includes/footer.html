@@ -1,36 +1,39 @@
+<link id="fa-stylesheet" rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@latest/css/all.min.css">
+
 <footer class="site-footer h-card">
-    <data class="u-url" href="{{ "/" | relative_url }}"></data>
-    <div class="wrapper">
-  
-      <div class="footer-col-wrapper">
-        <div class="footer-col">
-          <ul class="contact-list">
-            <li class="p-name">
-            {%- if site.author -%}
-              {{ site.author | escape }}
+  <data class="u-url" value="{{ '/' | relative_url }}"></data>
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col">
+      {%- if site.author %}
+        <ul class="contact-list">
+          {% if site.author.name -%}
+            <li class="p-name">{{ site.author.name | escape }}</li>
+          {% endif -%}
+          <li>
+            {%- if site.author.pronouns -%}
+              {{ site.author.pronouns | escape }}
             {%- else -%}
-              {{ site.title | escape }}
+              he/him
             {%- endif -%}
-            </li>
-            <li>
-              {%- if site.pronouns -%}
-                {{ site.pronouns | escape }}
-              {%- else -%}
-                he/him
-              {%- endif -%}
-            </li>
-            {%- if site.email -%}
-            <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-            {%- endif -%}
-          </ul>
-          <img src="/assets/images/kiwi.jpg" width="96" height="96"></img>
-        </div>
-  
-        <div class="footer-col">
-          {%- include social.html -%}
-        </div>
+          </li>
+          {% if site.author.email -%}
+            <li><a class="u-email" href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></li>
+          {%- endif %}
+        </ul>
+      {%- endif %}
       </div>
-  
+      <div class="footer-col">
+        <p>{{ site.description | escape }}</p>
+      </div>
     </div>
-  
-  </footer>
+
+    <div class="social-links">
+      {%- include social.html -%}
+    </div>
+
+  </div>
+
+</footer>

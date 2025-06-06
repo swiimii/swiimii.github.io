@@ -14,16 +14,16 @@
 #
 # Site settings
 # These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# you will see them accessed via {{ site.author.title }}, {{ site.author.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
 title: Sam Scherer
-author: Sam Scherer
-pronouns: He/Him
-email: swiimii962@gmail.com
+author: 
+  name: Sam Scherer
+  pronouns: He/Him
+  email: swiimii962@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Portfolio
 # baseurl: "" # the subpath of your site, e.g. /blog
 # url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  swiimii
@@ -31,22 +31,30 @@ itch-dot-io_username: swiimii
 
 minima:
   skin: dark
+  nav_pages:
+    - _pages/aboutme.markdown
+    - _pages/featuredProjects.markdown
+    - _pages/allProjects.markdown
+    - _pages/resume.markdown
   social_links:
-    - { platform: linkedin, user_url: "https://www.linkedin.com/in/samuel-scherer2/" }
-    - { platform: github, user_url: "https://github.com/swiimii" }
-    - { platform: itch-dot-io, user_url: "https://swiimii.itch.io" }
-    - { platform: devpost, user_url: "https://devpost.com/swiimii"}
+    - title: LinkedIn
+      icon: linkedin
+      url: "https://www.linkedin.com/in/samuel-scherer2/"
+    - title: Github
+      icon: square-github
+      url: "https://github.com/swiimii"
+    - title: Itch.io
+      url: "https://swiimii.itch.io"
+      icon: itch-io
+    - title: Devpost
+      url: "https://devpost.com/swiimii"
+      icon: dev
+  hide_site_feed_link: true
 
-header_pages:
-  - _pages/aboutme.markdown
-  - _pages/featuredProjects.markdown
-  - _pages/allProjects.markdown
-  - _pages/resume.markdown
 
 # Build settings
 # theme: minima
 plugins:
-  - jekyll-feed
   - jekyll-remote-theme
 
 remote_theme: jekyll/minima
