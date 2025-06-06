@@ -1,17 +1,18 @@
 ---
 layout: page
-title: About Me
+title: About Sam
 permalink: /AboutMe/
 ---
 
 
-<!-- img\social\Jam-Group-Pic.jpg -->
 
-Hi, I am Sam Scherer! I'm currently a Software Engineer at Siemens Digital Industries Software, working hard to improve my craft.
+Hello! I'm a Software Engineer at Siemens Digital Industries Software, working hard to improve my craft.
 
-In my free time, I'm also an Indie Video Game Developer. I recently created an LLC, Dualikiwi Games, with the intention of publishing my first game on Steam!
+In my free time, I'm also an Indie Video Game Developer. My LLC, Dualikiwi Games, published <a href="/2025/02/24/dualikiwiSteamRelease.html" target="_blank">its first game</a> on Steam in 2025!
 
-For more information about my professional experience, please visit <a href="https://www.linkedin.com/in/samuel-scherer2/" target="_blank">my LinkedIn page!</a> 
+I'm also the current leader of IGDA Cincinnati, my local branch of the International Game Developer Association. In that role, I organize monthly meetings to discuss Game Development and network with local peers.
+
+For more information about my professional experience, check out <a href="https://www.linkedin.com/in/samuel-scherer2/" target="_blank">my LinkedIn page!</a>
 
 
 <img src="/img/social/Jam-Group-Pic.jpg" >
@@ -25,7 +26,7 @@ Speaking of which, I never hesitate to ask questions. When I do ask, I like to g
 
 ## Interests
 
-I am a gamer, programmer, and cat dad! Some of my hobbies include attending board game nights, visiting breweries, <a href="/AllProjects/">creating Game Jam games,</a> and attending various conventions!
+I am a gamer, programmer, and cat dad! Some of my hobbies include attending board game nights, visiting breweries, <a href="/AllProjects/">creating Game Jam games,</a> and traveling to conventions!
 
 Raised by a family of musicians, I'm also a big music fan! I love going to concerts, recently took up Vinyl collecting, and have teaching myself to play Guitar since 2020!
 
