@@ -1,12 +1,12 @@
 ---
 layout: page
-title: About Sam
+title: About Sam ✏️
 permalink: /AboutMe/
 ---
 
 
 
-Hello! I'm a Software Engineer at Siemens Digital Industries Software, working hard to improve my craft.
+Hello! I'm a Software Engineer working at Siemens Digital Industries Software, working hard to improve my craft.
 
 In my free time, I'm also an Indie Video Game Developer. My LLC, Dualikiwi Games, published <a href="/2025/02/24/dualikiwiSteamRelease.html" target="_blank">its first game</a> on Steam in 2025!
 
