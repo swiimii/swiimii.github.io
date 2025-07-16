@@ -1,0 +1,32 @@
+---
+layout: project
+title:  "Aquarium"
+date:   2025-07-15 03:00:00 -0400
+# 2025-03-07
+tags: unity c-sharp windows
+img: /img/portfolio/Aquarium_transparent_square.gif
+---
+
+Created in ~4 days on a whim, inspired by Samperson's Cat Cursor application and Insaniquarium Deluxe.
+
+Features:
+- Collect fish which swim on top of your Windows UI and other applications.
+- Fish can be made transparent to reduce fishs' obstruction of other apps.
+
+Major Contributions:
+- 60% of Fish art, per version 1.1.0.
+- 100% of the rest of the project.
+
+Lessons Learned:
+- Windows API Calls from within Unity.
+  - With the strategy I used, UI elements don't work if you want to have the ability to click through to other applications.
+- Video Recording Learning.
+  - DaVinci Resolve > Vegas Pro 14
+  - Record lots of good footage at once, then edit it down.
+- Marketing
+  - Creating a good trailer is extremely important.
+  - Itch.io supports gifs for project thumbnails. Use them!
+
+<iframe frameborder="0" src="https://itch.io/embed/3718758?bg_color=ccfefb&amp;fg_color=222222&amp;link_color=00a5b5&amp;border_color=00aca9" width="552" height="167"><a href="https://swiimii.itch.io/aquarium">Aquarium: An Overlay Game by Sam 2</a></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/4hlSPpyS9cI?si=EoC6pH9LLHhn3wbK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
