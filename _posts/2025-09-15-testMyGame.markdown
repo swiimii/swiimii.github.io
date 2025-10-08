@@ -3,7 +3,7 @@ layout: project
 title:  "Test My Game"
 date:   2025-09-15 03:00:00 -0400
 # 2025-03-07
-tags: unity c-sharp hackathon
+tags: unity c-sharp hackathon playable
 img: /img/portfolio/test-my-game-thumbnail.png
 ---
 
