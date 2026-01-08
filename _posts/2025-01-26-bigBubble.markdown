@@ -2,7 +2,7 @@
 layout: project
 title:  Big Bubble
 date:   2024-06-02 06:00:00 -0400
-tags: hackathon unity c-sharp
+tags: game hackathon unity c-sharp
 img: /img/portfolio/BigBubble.png
 ---
 

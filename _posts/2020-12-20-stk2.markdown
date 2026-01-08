@@ -2,7 +2,7 @@
 layout: project
 title:  "Save The Kiwi 2"
 date:   2020-12-20 06:00:00 -0400
-tags: school-project unity c-sharp playable
+tags: game school-project unity c-sharp playable
 img: /img/portfolio/SaveTheKiwi.jpg
 ---
 

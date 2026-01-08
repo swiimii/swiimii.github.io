@@ -2,7 +2,7 @@
 layout: project
 title:  "Shell Sweet Shell"
 date:   2019-01-27 06:00:00 -0400
-tags: hackathon unity c-sharp playable production
+tags: game hackathon unity c-sharp playable production
 img: /img/portfolio/ShellSweetShell.jpg
 ---
 

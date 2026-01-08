@@ -3,7 +3,7 @@ layout: project
 title:  "Aquarium"
 date:   2025-07-15 03:00:00 -0400
 # 2025-03-07
-tags: unity c-sharp windows
+tags: game unity c-sharp windows
 img: /img/portfolio/Aquarium_transparent_square.gif
 ---
 

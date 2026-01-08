@@ -2,7 +2,7 @@
 layout: project
 title:  "Save the Kiwi"
 date:   2018-10-15 06:00:00 -0400
-tags: hackathon unity c-sharp playable
+tags: game hackathon unity c-sharp playable
 img: /img/portfolio/SaveTheKiwi.jpg
 ---
 

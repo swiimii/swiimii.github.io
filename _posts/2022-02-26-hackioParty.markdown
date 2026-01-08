@@ -2,7 +2,7 @@
 layout: project
 title:  "Hack-io Party"
 date:   2022-02-26 06:00:00 -0400
-tags: hackathon unity c-sharp video production
+tags: game hackathon unity c-sharp video production
 img: /img/portfolio/HackioParty.png
 ---
 

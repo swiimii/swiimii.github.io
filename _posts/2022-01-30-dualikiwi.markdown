@@ -2,7 +2,7 @@
 layout: project
 title:  "Dualikiwi (GGJ 2022)"
 date:   2022-01-30 06:00:00 -0400
-tags: hackathon unity c-sharp playable production
+tags: game hackathon unity c-sharp playable production
 img: /img/portfolio/DualiKiwi.png
 ---
 

@@ -2,7 +2,7 @@
 layout: project
 title:  "Re: Pear"
 date:   2020-01-28 06:00:00 -0400
-tags: hackathon unity c-sharp playable production
+tags: game hackathon unity c-sharp playable production
 img: /img/portfolio/RePear.jpg
 ---
 

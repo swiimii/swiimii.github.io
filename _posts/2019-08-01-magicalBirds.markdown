@@ -2,7 +2,7 @@
 layout: project
 title:  "Magical Birds"
 date:   2019-08-01 06:00:00 -0400
-tags: school-project unity c-sharp playable
+tags: game school-project unity c-sharp playable
 img: /img/portfolio/MagicalBirds.png
 ---
 

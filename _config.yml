@@ -33,6 +33,7 @@ minima:
   skin: dark
   nav_pages:
     - _pages/aboutme.markdown
+    - _pages/blog.markdown
     - _pages/featuredProjects.markdown
     - _pages/allProjects.markdown
     - _pages/resume.markdown

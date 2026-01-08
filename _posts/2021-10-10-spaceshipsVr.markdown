@@ -2,7 +2,7 @@
 layout: project
 title:  "Spaceships VR"
 date:   2021-10-10 06:00:00 -0400
-tags: hackathon vr unity c-sharp video production
+tags: game hackathon vr unity c-sharp video production
 img: /img/portfolio/SpaceshipsVR.png
 ---
 

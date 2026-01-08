@@ -2,7 +2,7 @@
 layout: project
 title:  "Project Cage"
 date:   2021-01-31 06:00:00 -0400
-tags: hackathon multiplayer unity c-sharp video
+tags: game hackathon multiplayer unity c-sharp video
 img: /img/portfolio/ProjectCage.png
 ---
 

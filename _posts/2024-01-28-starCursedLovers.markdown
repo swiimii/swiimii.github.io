@@ -2,7 +2,7 @@
 layout: project
 title:  "Star-Cursed Lovers"
 date:   2024-01-28 06:00:00 -0400
-tags: hackathon unity c-sharp playable production
+tags: game hackathon unity c-sharp playable production
 img: /img/portfolio/StarCursedLovers.png
 ---
 

@@ -2,7 +2,7 @@
 layout: project
 title:  "Meme Royale"
 date:   2018-03-04 06:00:00 -0400
-tags: hackathon unity c-sharp production
+tags: game hackathon unity c-sharp production
 img: /img/portfolio/MemeRoyale.jpg
 ---
 

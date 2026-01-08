@@ -1,0 +1,11 @@
+---
+layout: post
+---
+
+{%- if page.img -%}
+    <div class="image-header" style="display: flex; flex-wrap: nowrap;justify-content: center; align-items: center;"><img src="{{ page.img }}" alt="{{ page.title }}"/></div>
+<br>
+<br>
+{%- endif -%}
+
+{{ content }}

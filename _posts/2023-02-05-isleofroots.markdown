@@ -2,7 +2,7 @@
 layout: project
 title:  "Isle of Roots"
 date:   2023-02-05 06:00:00 -0400
-tags: hackathon featured multiplayer unity c-sharp video production
+tags: game hackathon featured multiplayer unity c-sharp video production
 img: /img/portfolio/IsleOfRoots.png
 ---
 

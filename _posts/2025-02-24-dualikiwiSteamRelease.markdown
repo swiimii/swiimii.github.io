@@ -3,7 +3,7 @@ layout: project
 title:  "Dualikiwi (Commercial)"
 date:   2025-02-24 03:00:00 -0400
 # 2025-03-07
-tags: featured unity c-sharp production steam
+tags: game featured unity c-sharp production steam
 img: /img/portfolio/DualiKiwi.png
 ---
 

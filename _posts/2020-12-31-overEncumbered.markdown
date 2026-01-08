@@ -2,7 +2,7 @@
 layout: project
 title:  "Over-Encumbered"
 date:   2020-12-20 06:00:00 -0400
-tags: hackathon unity c-sharp playable
+tags: game hackathon unity c-sharp playable
 img: /img/portfolio/OverEncumbered.png
 ---
 

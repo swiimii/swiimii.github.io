@@ -2,7 +2,7 @@
 layout: project
 title:  "Im-pasta-ble"
 date:   2020-02-23 06:00:00 -0400
-tags: hackathon multiplayer unity c-sharp
+tags: game hackathon multiplayer unity c-sharp
 img: /img/portfolio/ImPastable.png
 ---
 

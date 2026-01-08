@@ -2,7 +2,7 @@
 layout: project
 title:  "Spaceship Escape Room"
 date:   2021-02-21 06:00:00 -0400
-tags: hackathon multiplayer unity c-sharp video production
+tags: game hackathon multiplayer unity c-sharp video production
 img: /img/portfolio/SpaceshipEscapeRoom.png
 ---
 

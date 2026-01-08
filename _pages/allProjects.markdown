@@ -2,7 +2,7 @@
 layout: projectList
 title: All Projects ☑️
 permalink: /AllProjects/
-filter: ""
+filter: game
 ---
 
 Legend:
