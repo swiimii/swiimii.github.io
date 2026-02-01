@@ -1,0 +1,25 @@
+---
+layout: project
+title:  "Good Soup"
+date:   2026-02-01 03:00:00 -0400
+tags: game godot gdscript hackathon
+img: /img/portfolio/Good-Soup-Thumbnail.png
+---
+
+"Good Soup" is a 2D Point-and-Click game, in which you play as a chef attempting to poison a king.
+
+Created in 48 hours for the 2026 Global Game Jam alongside 3 other participants. I was the artist and audio lead for this project.
+
+Features:
+- 2D Point & Click Puzzle
+- Good Soup
+- Mostly Sam-made art
+
+Major Contributions:
+- ~70% Art. I created all art assets except the character, and blurry castle background.
+- Looping ~90-second music track
+
+Lessons Learned:
+- Cakewalk Next w/ Midi Keyboard
+- Procreate + Google Drive art pipeline
+
