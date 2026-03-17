@@ -50,8 +50,17 @@ minima:
     - title: Devpost
       url: "https://devpost.com/swiimii"
       icon: dev
+    - title: Subscribe to RSS
+      url: "/feed/blogs.xml"
+      icon: circle-user
   hide_site_feed_link: true
 
+rss: rss
+
+# RSS configuration
+feed:
+  categories:
+    - blog
 
 # Build settings
 # theme: minima
@@ -59,6 +68,14 @@ plugins:
   - jekyll-remote-theme
 
 remote_theme: jekyll/minima
+
+collections:
+  blogs:
+    output: true
+
+feed:
+  collections:
+    - blogs
 
 include:
   - _pages
