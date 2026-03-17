@@ -50,17 +50,8 @@ minima:
     - title: Devpost
       url: "https://devpost.com/swiimii"
       icon: dev
-    - title: Subscribe to RSS
-      url: "/feed/blogs.xml"
-      icon: circle-user
-  hide_site_feed_link: true
+  hide_site_feed_link: false
 
-rss: rss
-
-# RSS configuration
-feed:
-  categories:
-    - blog
 
 # Build settings
 # theme: minima
