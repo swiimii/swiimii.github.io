@@ -10,7 +10,7 @@ img: /img/portfolio/Root4Strikes.png
 
 Playable with 1-2 players using one keyboard.
 
-Created over a month for the 2026 IGDA Cincinnati Arcade Jam.
+Created as a solo project for the month-long October 2026 IGDA Cincinnati Arcade Jam.
 
 Features:
 - Math
@@ -18,8 +18,9 @@ Features:
 - Local Multiplayer with 1 keyboard
 
 Major Contributions:
-- 100% of art
-- Arcade Cabinet Glyphs
+- 100% of art (and glyphs)
+- 100% of code
+- SFX (music was licensed)
 
 Lessons Learned:
 - Device sharing with New Unity Input System

@@ -20,7 +20,7 @@ layout: page
     <ul class="post-list"  style="column-count: 1;">
 
       {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-      {%- for post in blogs -%}
+      {%- for post in blogs reversed -%}
       {% if page.filter == "" or post.tags contains page.filter or post.tags contains page.filter %}
         <li style="column-count: 2">
             <span class="post-meta">{{ post.date | date: date_format }}</span>
